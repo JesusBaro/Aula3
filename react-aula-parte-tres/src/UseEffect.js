@@ -22,16 +22,16 @@ const [pergunta,setPergunta] = useState("Oque é o Use Effect?")
 const[descricao,setDescricao]= useState("");
 const[corTitulo,SetCorTitulo] = useState("#000000");
 
-  useEffect(()=>{
-    (document.body.style.backgroundColor === "white")?
-    (document.body.style.backgroundColor = "black"):
-    (document.body.style.backgroundColor = "white")
-  },); //array de dependencia por estar nomeda com a const fundo
+  // useEffect(()=>{
+  //   (document.body.style.backgroundColor === "white")?
+  //   (document.body.style.backgroundColor = "black"):
+  //   (document.body.style.backgroundColor = "white")
+  // },); //array de dependencia por estar nomeda com a const fundo
   
 
   return (
     <>
-    {/* propriedad cor criada e adicionada a const Fundo */}
+    {/* propriedad cor criada  no estilo adicionada a const Fundo, foi colocada nessa div. pra que a funcao de cor ative nela */}
     <Div cor={fundo} > 
     <h2>Aula 3</h2>
 
