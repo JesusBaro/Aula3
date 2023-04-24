@@ -68,15 +68,17 @@ import UseEffectTeste from "./UseEffect.js";
 import Functions from "./Aula4/funtions.js";
 import UseMemo from "./Aula5/Aula.js";
 import Aula5 from "./Aula5/aula5.js"
+
 export default function App(){
 
     return(
 
         <>
-{/* <Functions/> */}
-{/* <UseEffectTeste/> */}
-{/* <UseMemo/> */}
+<Functions/>
+<UseEffectTeste/>
+<UseMemo/>
 <Aula5/>
+
         </>
     )
 
